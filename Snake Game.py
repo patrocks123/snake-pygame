@@ -12,10 +12,10 @@ import pygame, sys, time, random
 # Hard      ->  40
 # Harder    ->  60
 # Impossible->  120
-difficulty = 25
+difficulty = 120
 
 # Window size
-frame_size_x = 720
+frame_size_x = 480
 frame_size_y = 480
 
 # Checks for errors encountered
@@ -36,7 +36,7 @@ game_window = pygame.display.set_mode((frame_size_x, frame_size_y))
 
 # Colors (R, G, B)
 black = pygame.Color(0, 0, 0)
-white = pygame.Color(255, 255, 255)
+white = pygame.Color(255, 0, 0)
 red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
